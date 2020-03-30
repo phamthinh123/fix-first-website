@@ -162,23 +162,30 @@ font-size: 15px;
 }
 
 .emaillast::before{
-	content: url('https://api.iconify.design/ic:twotone-subdirectory-arrow-left.svg?color=white&width=25&height=25&rotate=180deg')"SUBSCRIBE";
+	content: url('https://api.iconify.design/ic:twotone-subdirectory-arrow-left.svg?color=white&width=25&height=25&rotate=180deg');
 
-	width: auto;
+	width: 165px;
 	
 	background-color: red;
 	position: absolute;	
 	right: 5px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-size: 20px;
+	justify-content: flex-start;
+	
 	cursor: pointer;
 	padding: 10px;
 	box-sizing: border-box;
 	font-weight: 600;
 
+
+}
+.emaillast::after{
+	content: "SUBSCRIBE";
+	position: absolute;
+	color: white;
+	font-size: 21px;
+	right: 5px;
+	padding-right: 10px;
 }
 .sub{
 	background-color: red;
