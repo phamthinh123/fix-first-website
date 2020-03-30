@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+}
+.sidebar{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.sidebar .aboutme,.popularposts,.followinstagram,.subscibe,.populartags{
+	width: 100%;
+	height: auto;
+	color: white;
+	font-weight: 600;
+	background-color: black;
+	padding: 15px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.sidebar .pic{
+	background-image: url(https://www.zuperstores.com/template/libra/images/upload/sidebar-about-me.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	background-repeat: no-repeat;
+	color: #FED99B;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+.sidebar .cont{
+	background: rgb(0,0,0,0.3);
+background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+	height: 50%;
+	padding: 20px 45px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.sidebar .cont p:nth-child(2){
+	text-align: center;
+}
+.sidebar .cont p:nth-child(2) .iconify{
+	color: white;
+	margin: 8px;
+}
+.post{
+	width: 100%;
+	margin-top: 20px;
+	background-color: #C3B299;	
+	padding:15px 25px 25px;
+	border-radius: 10px;
+}
+.post img{
+width: 80px;
+height: 80px;
+cursor: pointer;
+margin-right: 20px;
+}
+
+.box{
+	display: flex;
+	align-items: flex-start;	
+	padding:20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2)
+
+}
+.box:last-child{
+	border: none;
+}
+.box .contentright, {
+	margin-left: 20px;
+}
+.box p{
+	margin: 0;
+	margin-bottom: 10px;
+	    color: #6C5A49;
+	font-size: 16px;
+}
+.box button{
+	outline: none;
+	border:none;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 17px
+}
+.box button:hover{
+ 	color: yellow;
+}
+.imgs{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 13px;
+	padding:0px 0px 10px 0px;
+}
+.imgs img{
+	width: 120px;
+	height: 120px;
+
+}
+.subscribe1{
+	background-color: #C3B299;	
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding:20px 30px 40px;
+	text-align: center;
+	color: #6C5A49;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.subscribe1 input{
+padding: 10px;
+border-radius: 7px;
+outline: none;
+border:none;
+background-color: #c2c2c2c4;	
+	}
+
+
+.subscribe1 button{
+	padding: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background-color: #faf73ff5;
+	outline:none;
+	cursor:pointer;
+	border:none;
+	border-radius:5px;
+}
+.populartags1{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.populartags1 div{
+	padding:10px 10px;
+	background-color: #C3B299;
+	margin: 3px;
+	border-radius: 10px;
+	color: #6C5A49;
+	cursor: pointer;
+}
